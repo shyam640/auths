@@ -23,8 +23,8 @@ export const sendConfirmationEmail = (name, email, confirmationCode) => {
     ` 
       <h1>Email Confirmation</h1>
       <h2>Hello ${name}</h2>
-      <p>Thank you for subscribing. Please confirm your email by clicking on the following link</p>
-      <a href=http://localhost:3000/confirm/${confirmationCode}> Click here</a>
+      <p>Thank you for signing-up. Please confirm your email by clicking on the following link</p>
+      <a href=https://auth-backend-ibcu.onrender.com/confirm/${confirmationCode}> Click here</a>
       </div>
     `,
     
